@@ -1,0 +1,23 @@
+# 重型模型（XTTS-v2等）
+TTS>=0.22.0
+torch>=2.0.0
+numpy>=1.24.0
+soundfile>=0.12.0
+librosa>=0.10.0
+
+# 轻量级模型选项
+# Piper TTS（推荐：超轻量，25-60MB）
+# pip install piper-tts
+# 或从 https://github.com/rhasspy/piper/releases 下载语音模型
+
+# Edge-TTS（Microsoft云端服务，0MB本地模型）
+edge-tts>=6.1.0
+
+# 测试依赖（可选）
+# 单元测试使用unittest（Python标准库，无需额外安装）
+# 如需使用pytest运行测试：
+# pytest>=7.0.0
+# pytest-cov>=4.0.0  # 代码覆盖率
+
+# 其他可选依赖
+# Kokoro TTS: 需要单独安装，参考 https://github.com/hexgrad/Kokoro-82M
